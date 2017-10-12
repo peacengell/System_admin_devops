@@ -3,4 +3,4 @@
 
 # PHP-FPM
 
-[php-fpm.md](php-fpm)
+[php-fpm](php-fpm.md)
