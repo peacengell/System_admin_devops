@@ -14,7 +14,8 @@
         --root-dir[=ROOT-DIR]  Force magento root dir. No auto detection
         --skip-config          Do not load any custom config.
         --skip-root-check      Do not check if n98-magerun runs as root
-    -v|vv|vvv, --verbose       Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for             debug
+    -v|vv|vvv, --verbose       Increase the verbosity of messages: 1 for normal output, 
+     2 for more verbose output and 3 for debug.
 
 #### Available commands:
       help                               Displays help for a command
@@ -26,17 +27,20 @@
       self-update                        Updates n98-magerun.phar to the latest version.
       selfupdate                         Updates n98-magerun.phar to the latest version.
       shell                              Runs n98-magerun as shell
-      uninstall                          Uninstall magento (drops database and empties current folder or folder set via           installationFolder)
+      uninstall                          Uninstall magento (drops database and empties current 
+                                         folder or folder set viainstallationFolder)
  
  #### admin
       admin:notifications                Toggles admin notifications
       admin:user:change-password         Changes the password of a adminhtml user.
-      admin:user:change-status           Set active status of an adminhtml user. If no option is set the status will be            toggled.
+      admin:user:change-status           Set active status of an adminhtml user. 
+                                         If no option is set the status will be toggled.
       admin:user:create                  Create admin user.
       admin:user:delete                  Delete the account of a adminhtml user.
       admin:user:list                    List admin users.
       admin:user:lock                    Enforce a lock on an admin user account. Specify the username and an optional             lifetime parameter in seconds.
-      admin:user:lockdown                Lock every admin user account for the optionally specified lifetime (in days). If          not provided, defaults to one month.
+      admin:user:lockdown                Lock every admin user account for the optionally specified lifetime (in days).
+                                         If not provided, defaults to one month.
       admin:user:unlock                  Release lock on admin user for one or all users
  
  #### cache
