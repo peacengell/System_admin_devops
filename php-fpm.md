@@ -2,11 +2,11 @@
 ### All about php-fpm | config | troubleshoutng
 
 
-###### Problem 
+#### Problem 
     > Check if OPcache is up and running on a server.
     > php-fpm
     > php
-###### Solution.
+#### Solution.
 ```
    1. php-fpm -i | grep "Opcode Caching" 
 ```
