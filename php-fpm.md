@@ -3,9 +3,10 @@
 
 
 ###### Problem 
-    >  Check if OPcache is up and running on a server.
-    >  php-fpm
-    >  php
+    > Check if OPcache is up and running on a server.
+    > php-fpm
+    > php
 ###### Solution.
+```
    1. php-fpm -i | grep "Opcode Caching" 
-
+```
